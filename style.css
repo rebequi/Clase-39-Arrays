@@ -1,0 +1,55 @@
+  
+
+body {
+    background-color: #e2e1e0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  } 
+  
+  .card-container {
+    display: flex;
+  }
+  
+  .card {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: #fff;
+  }
+  
+  .card-title {
+    font-size: 2em;
+  }
+  
+  .card-img {
+    width: 100%;
+  }
+  
+  .card-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  #borde-rojo {
+    border: solid red 1px 
+   }
+
+   p {
+     color: green
+   }
+
+   .verde {
+     color: green;
+   }
+   .rojo {
+    color: red;
+  }
+  .amarillo {
+    color: yellow;
+  }
+  .azul{
+    color: blue;
+  }
+  
+  .rosa {
+    color: pink;
+  }
