@@ -1,16 +1,13 @@
+const boton = document.getElementById("button")
+const cards = document.querySelectorAll (".card")
 
-const primerElementoClaseVerde = document.querySelector (".verde")
 
-primerElementoClaseVerde.classList.remove("verde")
 
-const primerElementoClaseRojo = document.querySelector (".rojo")
-
-primerElementoClaseRojo.classList.add("rosa")
-
-const primerElementoClaseAmarillo = document.querySelector (".rosa")
-
-primerElementoClaseAmarillo.classList.toggle("rosa")
-
-const primerElementoClaseAmarillo = document.querySelector (".amarillo")
-
-primerElementoClaseAmarillo.classList.contains("rojo")
+boton.onclick = () => {
+    for (let card of cards) {
+    
+        if (card.dataset.nombre === "boris") {
+            card.classList.add ('hidden')
+        }
+    }
+}
