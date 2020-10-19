@@ -1,69 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gatitos</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-
 <body>
-
-  <div class="container">
-<!-- SE LE AGREGA EL DATA-NOMBRE PARA CREAR EL FILTRO A PARTIR DE AHI EN EL INPUT TEXT -->
-<!-- DESDE JAVASCRIPT SE PUEDE BUSCAR el dataset como console.log(card.dataset.nombre) -->
-
-    <div class="card" data-nombre="artilugia" data-sexo="hembra" data-colores="tricolor">
-      <img src="http://www.placekitten.com/200">
-      <div class="title">
-        <h4>Artilugia</h4>
-      </div>
-    </div>
-
-    <div class="card" data-nombre="boris" data-sexo="macho" data-colores="Blanco">
-      <img src="http://www.placekitten.com/300">
-      <div class="title">
-        <h4>Boris</h4>
-      </div>
-    </div>
-
-    <div class="card" data-nombre="Pippin" data-sexo="hembra" data-colores="gris">
-      <img src="http://www.placekitten.com/900">
-      <div class="title">
-        <h4>Pippin</h4>
-      </div>
-    </div>
-
-  </div>
-
-  <form>
-    <label for = "name">nombre<input type="text" name="nombre" id="name"/></label>
-
-
-      <label>Colores</label>
-
-      <button type="button" data-colores="blanco">Blanco</button>
-      <button type="button" data-colores="gris">Gris</button>
-      <button type="button" data-colores="tricolor">tricolor</button>
-
-    <div>
-      <label>Sexo</label>
-
-      <input type="radio" name="sexo" data-sexo="macho"> Macho
-      <input type="radio" name="sexo" data-sexo="hembra"> Hembra
-      <input type="radio" name="sexo" data-sexo="indistinto"> indistinto
-    
-
-
-    </div>
-
-    <button id="button"> desparece gatito</button>
-
-
-  </form>
-  <script src ="index.js"></script>
-
+  <script src="index.js"></script>
 </body>
-
 </html>
