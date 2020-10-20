@@ -78,9 +78,6 @@ const obtenerNumeroAlAzar = () => {
 const arrayDeFrutas = [ '🍉', '🍐', '🍌', '🍇', '🍎', '🍊']
 
 const obtenerFrutaAlAzar = (items) => {
-//     for ( let item of items) {
-//        item = obtenerNumeroAlAzar()
-//     } 
         return items[obtenerNumeroAlAzar()]
  }
     
