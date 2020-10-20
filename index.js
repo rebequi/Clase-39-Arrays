@@ -72,7 +72,17 @@ for (let i = playlist.length - 1; i >= 0; i--){
 const obtenerNumeroAlAzar = () => {
    const number = Math.floor(Math.random() * 5);
    console.log (number)
-   const items = [ '🍉', '🍐', '🍌', '🍇', '🍎', '🍊']
+   return number
    
 }
-obtenerNumeroAlAzar ()
+const arrayDeFrutas = [ '🍉', '🍐', '🍌', '🍇', '🍎', '🍊']
+
+const obtenerFrutaAlAzar = (items) => {
+//     for ( let item of items) {
+//        item = obtenerNumeroAlAzar()
+//     } 
+        return items[obtenerNumeroAlAzar()]
+ }
+    
+console.log (obtenerFrutaAlAzar(arrayDeFrutas))
+console.log (obtenerFrutaAlAzar(playlist))
