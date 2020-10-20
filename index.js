@@ -83,3 +83,24 @@ const obtenerFrutaAlAzar = (items) => {
     
 console.log (obtenerFrutaAlAzar(arrayDeFrutas))
 console.log (obtenerFrutaAlAzar(playlist))
+
+
+// Declara la variable listaDeFrutas como un array vacio
+// Usando la funcion obtenerFrutaAlAzar(), asigna una fruta en la posicion 0 del array listaDeFrutas
+// Hace lo mismo para las posiciones 1, 2, 3 y 4.
+// Al final te va a quedar un array con 5 frutas al azar. Pero el codigo esta algo repetitivo, no? 
+// Podemos mejorarlo reemplazando esa asignación con un for.
+
+const listaDeFrutas = []
+// listaDeFrutas.push(obtenerFrutaAlAzar(arrayDeFrutas))
+// listaDeFrutas.push(obtenerFrutaAlAzar(arrayDeFrutas))
+// listaDeFrutas.push(obtenerFrutaAlAzar(arrayDeFrutas))
+// listaDeFrutas.push(obtenerFrutaAlAzar(arrayDeFrutas))
+// listaDeFrutas.push(obtenerFrutaAlAzar(arrayDeFrutas))
+
+    for (let i = 0; i < 5; i++) {
+        // const fruta = listaDeFrutas[i];
+        // fruta.push
+        listaDeFrutas.push(obtenerFrutaAlAzar(arrayDeFrutas))
+    }
+console.log (listaDeFrutas)
